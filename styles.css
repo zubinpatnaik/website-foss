@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: Lilita One, cursive;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #3a3030;
+  color: #333;
+}
+
+/* Navigation Bar */
+.nav-left .nav-right{
+  display: flex; 
+  align-items: center;
+}
+
+.nav-left{
+  font-size: 40px;
+}
+
+.nav-right{
+  font-size: 32px;  
+}
+
+nav {
+  background-color: #60BEA0 ;
+  padding: 10px 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #333; /* Dark grayish font */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'Lilita One',cursive;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Page */
+#home {
+  display: flex;
+  border-top: 150px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px;
+  min-height: 100vh;
+  background-color: #fff;
+}
+.main-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 175px;
+}
+.dog-photo .intro{
+  display: inline;
+  justify-content: center;
+  padding: 30px;
+  
+}
+
+.dog-photo {
+  width: 500px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 30px;
+
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.intro .quote {
+  font-style: italic;
+  color: #555;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid green;
+  padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+}
