@@ -9,22 +9,22 @@ body {
 }
 
 /* Navigation Bar */
-.nav-left .nav-right{
+.nav-left, .nav-right{
   display: flex; 
   align-items: center;
 }
 
 .nav-left{
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .nav-right{
-  font-size: 32px;  
+  font-size: 24px;  
 }
 
 nav {
   background-color: #60BEA0 ;
-  padding: 10px 20px;
+  padding: 0px 20px;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #333; /* Dark grayish font */
+  color: #333; 
   text-decoration: none;
   font-weight: bold;
   padding: 5px 10px;
@@ -64,31 +64,26 @@ nav ul li a:hover {
   border-top: 150px;
   align-items: center;
   justify-content: space-between;
-  padding: 150px;
-  min-height: 100vh;
   background-color: #fff;
 }
 .main-content{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 30px;
-  gap: 175px;
-}
-.dog-photo .intro{
-  display: inline;
-  justify-content: center;
-  padding: 30px;
-  
+  justify-content: space-around;
+  padding: 50px;
+  gap: 50px;
 }
 
 .dog-photo {
-  width: 500px;
-  height: auto;
+  width: auto;
+  height: 350px;
   border-radius: 50%;
   margin-right: 30px;
-
+  border-radius: 400px;
   border: 5px solid rgb(0, 0, 0);
+}
+.intro{
+  max-width: 50%;
 }
 
 .intro h1 {
@@ -99,6 +94,17 @@ nav ul li a:hover {
 .intro .quote {
   font-style: italic;
   color: #555;
+}
+.bio {
+  font-weight: normal;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+  color: #444;
+  max-width: 700px; 
+  margin-top: 20px;
+  line-height: 1.6;
+  text-align: left; 
+  word-spacing: 2px;
 }
 
 /* Sections */
